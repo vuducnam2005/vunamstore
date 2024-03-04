@@ -1,0 +1,223 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#logo img{
+    width: 10%;
+    height: auto;
+    margin-top: -20px;
+    margin-left: -20px;
+}
+header{
+    background-color: rgb(72, 91, 103);
+    color: antiquewhite;
+
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+nav li{
+    margin-right: 20px;
+    margin-top: 15px;
+}
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 25px;
+}
+nav li:hover{
+    background-color: brown;
+    padding: 5px;
+    border-radius: 10px;
+}
+h1 {
+    font-size: 40px;
+    text-align: center;
+   
+    padding: 10px;
+    margin-top: 5px;
+}
+main{
+    padding: 50px;
+}
+.section{
+   margin-bottom: 50px;
+}
+.section p{
+    text-align: center;
+}
+.section h2{
+    text-align: center;
+    color: rgb(10, 8, 4);
+    margin-bottom: 20px;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.product{
+    width: calc(20.3% - 20px);
+    margin-bottom: 1px;
+    text-align: center;
+}
+.product img{
+    width: 100%;
+    border: 2px solid purple;
+    margin-bottom: 20px;
+    border-radius: 10px;
+
+}
+.product button{
+    background-color: orangered;
+    color: rgb(211, 214, 216);
+    border: 1px solid rgb(246, 158, 246);
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.section form{
+    margin-left: 25%;
+}
+.section form input{
+    margin-left: 50px;
+    width: 300px;
+    height: 30px;
+    margin-top:20px ;
+}
+#email{
+    margin-left:79px ;
+}
+#message{
+    margin-left:68px ;
+}
+
+.section form button{
+    margin-top: 20px;
+    width: 50px;
+    height: 25px;
+    margin-left: 374px;
+}
+footer{
+    background-color: rgb(18, 17, 17);
+    color: aliceblue;
+    height: 500px;
+}
+@media screen and(max-width:768px){
+    header{
+        padding: 10px;
+    }
+    nav ul{
+        flex-wrap: wrap;
+    }
+    nav li{
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .products{
+        flex-wrap: wrap;
+    }
+    .product{
+        width: calc(100%/2-10px);
+        margin-bottom: 30px;
+    }
+   
+} 
+a{
+     text-decoration: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+#headsale {
+    background-color: rgb(242, 242, 127);
+    padding: 20px;
+}
+#headsale h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    color: rgb(54, 131, 164);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#headsale p{
+    font-size: 10px;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-left: 25px;
+    color: rgb(72, 91, 103);
+}
+marquee{
+    background-color: rgb(72, 91, 103);
+    padding: 20px;
+}
+marquee p{
+    color: rgb(242, 242, 127);
+    text-transform: uppercase;
+    text-align: center;
+}
+.menu{
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.menu img{
+    width: 100px;
+    height: auto;
+}
+.menu li{
+    margin: auto;
+    list-style-type: none;
+    font-weight: bold;
+   padding: auto;
+}
+.menu #search{
+    margin-left: 200px;
+}
+#search input{
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    margin-right: -60px;
+    margin-left:-20px;
+    margin-bottom: 0px;
+    padding-left: 20px;
+}
+#brick{
+    margin-left: -100px;
+}
+#brick:hover{
+    transition: box-shadow .4s, color .3s;
+    box-shadow: 0 3px tomato;
+}
+.menu .sub-menu{
+    position: absolute;
+    display: none;
+    top: auto;
+    left: auto;
+}
+.menu .sub-menu li{
+    list-style-type: none;
+    color: black;
+    margin-left: 50px;
+}
+.menu li:hover .sub-menu{
+    background-color: white;
+    display: flex;
+    padding: 10px;
+}
+.sub-menu #product a{
+    display: block;
+    text-decoration: none;
+}
+.fix img{
+    padding-right: 40px;
+}
+#chu{
+    color:red;
+}
